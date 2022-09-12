@@ -1,0 +1,20 @@
+{
+  "name": "milky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel --watch src --out-dir public/js",
+    "build": "babel src --out-dir public/js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
